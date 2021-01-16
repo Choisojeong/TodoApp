@@ -1,7 +1,10 @@
 import React from 'react';
 import styled from "styled-components";
-
-const TodoListTemplate=({additem, children}) => {
+type GreetingsProps = {
+    additem: any;
+    children: any;
+  };
+const TodoListTemplate=({additem, children}:GreetingsProps) => {
     return (
         <TodoListContainer>
             <Apptitle>
