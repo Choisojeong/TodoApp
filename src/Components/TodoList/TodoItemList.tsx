@@ -8,6 +8,8 @@ const TodoList = styled.div`
     min-height: 320px;
     max-height: 513px;
     overflow-y: auto;
+    padding : 0.5rem;
+
 `
 
 interface TodoItemListProps {
