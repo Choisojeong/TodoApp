@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from "styled-components";
 import TodoItemList from '../Components/TodoList/TodoItemList';
 import { TodoProps } from '../Models/Todo';
 

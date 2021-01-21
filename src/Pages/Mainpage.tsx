@@ -1,4 +1,4 @@
-import React, {useRef, useCallback, useState} from 'react';
+import React, {useRef, useState} from 'react';
 import TodoHeader from '../Containers/TodoHeader';
 import TodoList from '../Containers/TodoList';
 import { TodoProps } from '../Models/Todo';
